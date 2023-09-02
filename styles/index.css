@@ -24,6 +24,12 @@ h1 {
   margin: 1.5em 1em;
   font-weight: bold;
 }
+@media screen and (max-width: 434px) {
+  .log-in {
+    padding: 0.5em 4em 0.5em 4em;
+  }
+}
+
 .log-in:hover {
   background-color: #1360c4 !important;
 }

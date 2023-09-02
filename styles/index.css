@@ -1,0 +1,137 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  text-transform: capitalize;
+}
+.main {
+  width: 100%;
+  height: 100vh;
+}
+
+h1 {
+  font-size: 60px;
+  letter-spacing: 2px;
+}
+.form {
+  width: fit-content;
+  margin: auto;
+  border-radius: 6px;
+  box-shadow: 0 2px 20px 2px rgb(150 150 150);
+}
+.log-in {
+  padding: 0.5em 7em 0.5em 7em;
+  margin: 1.5em 1em;
+  font-weight: bold;
+}
+.log-in:hover {
+  background-color: #1360c4 !important;
+}
+.new-acc {
+  padding: 0.5em;
+  font-size: 1.1em;
+  font-weight: bold;
+  background-color: #42b72a !important;
+}
+.new-acc:hover {
+  background-color: #369423 !important;
+}
+.reg {
+  width: 100%;
+  /* height: 100vh; */
+}
+label {
+  color: #1877f2;
+  font-size: 20px;
+  font-weight: bold;
+}
+.form2 input {
+  padding-right: 20px;
+  font-size: 1.5em;
+  border-radius: 3px;
+  border: 1px solid;
+  font-weight: 500;
+}
+
+::placeholder {
+  font-size: 15px;
+  padding-left: 20px;
+  /* padding-right: 20px; */
+  font-weight: 500;
+  text-align: start;
+}
+.form2 {
+  margin-bottom: 5rem;
+  margin-top: 2em;
+}
+.form2 button {
+  padding: 12px;
+  background-color: blue;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+}
+.row4-r {
+  margin-right: 5.5em !important;
+}
+@media screen and (max-width: 575px) {
+  .main {
+    text-align: center;
+  }
+}
+/* .reg {
+  max-width: calc(100%-20%);
+} */
+
+@media screen and (max-width: 767px) {
+  .form2 input {
+    /* font-size: small; */
+    width: 110%;
+    margin-right: 5px;
+  }
+  .row1,
+  .row2,
+  .row3,
+  .row4 {
+    display: flex;
+    text-align: start;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  .row1-r,
+  .row1-l,
+  .row2-l,
+  .row3-l,
+  .row4-l,
+  .row2-r,
+  .row3-r,
+  .row4-r {
+    width: 91%;
+  }
+  .row1-l {
+    width: 100%;
+  }
+
+  .container .row4 {
+    flex-direction: column;
+    align-items: start;
+    text-align: start;
+  }
+  .btn {
+    text-align: start;
+    margin-top: 10px;
+    margin-right: 40px;
+  }
+  .form2 {
+    display: block !important;
+  }
+  .radioo {
+    width: 20px;
+    display: flex;
+    margin-right: 10px;
+  }
+}
